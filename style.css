@@ -1,6 +1,44 @@
+@font-face {
+  font-family: "Fuse V.2 Display";
+  src: url(fonts/FuseV.2Display-Book.woff2) format(truetype);
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: "Fuse V.2 Display";
+  src: url(fonts/FuseV.2Display-BookItalic.woff2) format(truetype);
+} */
+
+@font-face {
+  font-family: "Fuse V.2 Display";
+  src: url(fonts/FuseV.2Display-ExtraBold.woff2) format(truetype);
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: "Fuse V.2 Display";
+  src: url(fonts/FuseV.2Display-ExtraBoldItalic.woff2) format(truetype);
+  /* font-weight: 800;
+  font-style: normal;
+/* } */
+
+@font-face {
+  font-family: "Fuse V.2 Text";
+  src: url(fonts/FuseV.2Text-Book.woff2) format(truetype);
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: "Fuse V.2 Text";
+  src: url(fonts/FuseV.2Text-BookItalic.woff2) format(truetype);
+} */
+
 * {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   color: #f5f5f7;
 }
 
@@ -40,9 +78,17 @@ body {
 }
 
 .navigation-logo-box--text {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: 0.08em;
   color: #f5f5f7;
   text-decoration: none;
-  font-weight: 500;
+  /* font-weight: 500; */
 }
 
 .navigation-content-list {
@@ -148,9 +194,13 @@ body {
 }
 
 .stat-box--large-text {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 800;
   font-size: 122px;
   line-height: 120px;
-  font-weight: 800;
+  /* identical to box height, or 98% */
+
   letter-spacing: -0.02em;
 }
 
@@ -241,9 +291,12 @@ body {
 }
 
 .stat-box--text {
-  font-size: 24px;
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
   font-weight: 400;
-  margin-top: 0px;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
 }
 
 .fesb {
@@ -257,7 +310,7 @@ body {
   width: 100%;
 }
 
-.fesb-container{
+.fesb-container {
   position: absolute;
 }
 
@@ -265,16 +318,18 @@ body {
   position: absolute;
   z-index: 1;
   left: 204px;
-  top:0;
-  bottom:0;
+  top: 0;
+  bottom: 0;
   width: 402px;
   height: fit-content;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-.fesb-text-box--text{
-  margin: 0
+.fesb-text-box--text {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  margin: 0;
 }
 
 .fesb-text-box--text__small {
@@ -305,17 +360,67 @@ body {
   line-height: 24px;
 }
 
-.fesb--pin-img{
+.fesb--pin-img {
   position: absolute;
   top: 403px;
   left: 964px;
 }
 
-.inovators{
+.inovators {
   display: flex;
-  justify-content: space-between;
 }
 
-.inovators-text-box{
+.inovators-text-box {
   width: 482px;
+}
+
+.speaker-box:not(:last-child){
+  margin-bottom: 32px;
+}
+
+.inovators-images-container{
+  display: flex;
+}
+
+.inovators--text {
+  margin: 0;
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+}
+
+.inovators--text__header {
+  font-weight: 800;
+  font-size: 81px;
+  line-height: 88px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+.inovators--text__small {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.inovators--text__name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #f5f5f7;
+  margin-bottom: 6px;
+}
+
+.inovators--text__role {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: -1px;
+  color: #54545f;
+  margin-bottom: 10px;
+}
+
+.inovators--speaker-img{
+  margin-bottom: 12px;
 }
