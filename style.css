@@ -461,6 +461,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     align-self: center;
+    margin-top: 16px;
 }
 
 .header-hero--content {
@@ -611,20 +612,24 @@ h2 {
     flex-direction: row;
     margin-left: 7.2vw
 }
-.online-content button{
-    align-self:flex-start;
+
+.online-content button {
+    align-self: flex-start;
 }
+
 .online-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-.online > img{
+
+.online>img {
     position: absolute;
     top: 282px;
     margin-left: 43.3vw;
-    
+
 }
+
 .online-title {
     font-family: 'Fuse V.2 Display';
     font-style: normal;
@@ -657,4 +662,283 @@ h2 {
     line-height: 28px;
     margin-top: 260px;
     margin-bottom: 457px;
+}
+
+.schedule {
+    margin-bottom: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.schedule-title {
+    font-family: 'Fuse V.2 Display';
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    font-size: 122px;
+    line-height: 120px;
+    margin-bottom: 125px;
+}
+
+.schedule-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 920px;
+    height: 50px;
+}
+
+.schedule-nav--border {
+    background: #F5F5F7;
+    opacity: 0.1;
+    width: 920px;
+    height: 1px;
+    margin-bottom: 53px;
+}
+
+.schedule-gradient {
+
+    font-family: 'Fuse V.2 Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    background: linear-gradient(124.93deg, #0D8FD3 5.44%, #0B60BB 17.95%, #0A3AA7 36.44%, #6A387D 69.53%, #C53754 105.59%, #FA5240 117.57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    padding: 15px;
+}
+
+.schedule-grey {
+    padding: 15px;
+    font-family: 'Fuse V.2 Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #54545F;
+    margin-left: 42px;
+}
+
+.schedule-category {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.category-active {
+    font-family: 'Fuse V.2 Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 0px 24px 0px 24px;
+}
+
+.category-inactive {
+    font-family: 'Fuse V.2 Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #54545F;
+    line-height: 16px;
+    padding: 0px 24px;
+}
+
+.inactive--middle {
+    border-right: 1px solid #8A8A99;
+    border-left: 1px solid #8A8A99;
+}
+
+.schdule-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(245, 245, 247, 0.05);
+    backdrop-filter: blur(2px);
+}
+
+.upper-row {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    margin-top: 32px;
+    justify-content: space-around;
+    margin-left: 32px;
+}
+
+.card--time {
+    font-family: 'Fuse V.2 Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    margin-right: 39px;
+}
+
+.dev {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2px 8px 4px;
+    width: 40px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #F5F5F7;
+    font-family: 'Fuse V.2 Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    margin-right: 11px;
+}
+
+.card--title {
+    font-family: 'Fuse V.2 Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18px;
+    margin-right: 11px;
+}
+
+.yt-icon {
+    width: 20px;
+    height: 14.7px;
+    background-color: #F5F5F7;
+    border-radius: 25%;
+    position: relative;
+    margin-right: 11px;
+}
+
+.triangle {
+    height: 8px;
+    width: 6px;
+    position: absolute;
+    top: 2.73px;
+    left: 7.5px;
+    border: 5px solid transparent;
+    border-left-color: black;
+    border-radius: 15%;
+}
+
+.inner-icon {
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: #FF3636;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+
+.record-icon {
+    height: 14px;
+    width: 14px;
+    position: relative;
+    border: solid 1.5px #FF3636;
+    border-radius: 50%;
+    margin-right: 11px;
+}
+
+.card--live {
+    font-family: 'Fuse V.2 Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    margin-right: 230px;
+}
+
+.card--activator {
+    width: 11.33px;
+    height: 11.33px;
+    border: solid #F5F5F7 1px;
+    transform: rotate(45deg);
+    border-bottom: hidden;
+    border-right: hidden;
+    margin-right: 32px;
+}
+
+.card--text {
+    margin-top: 25px;
+    margin-left: 160px;
+    max-width: 797px;
+    padding-right: 60px;
+    font-family: 'Fuse V.2 Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 24px;
+}
+
+.card--grey {
+    width: 728px;
+    margin-left: 97px;
+    background: #F5F5F7;
+    opacity: 0.1;
+    height: 1px;
+}
+
+.lower-row {
+    display: flex;
+    flex-direction: row;
+    margin-left: 160px;
+    align-self: flex-start;
+    margin-top: 19px;
+    margin-bottom: 36px;
+}
+
+.lower-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 17px;
+
+}
+
+.lower-content--title {
+    font-family: 'Fuse V.2 Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+
+}
+
+.lower-content--subtitle {
+    font-family: 'Fuse V.2 Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.lower-content--img{
+    margin-left: 337px;
+    align-self: center;
+}
+.profico-dot{
+    width: 4px;
+    height: 5px;
+    background-color: #F5F5F7;
+    align-self: center;
+    margin-top: 15px;
 }
