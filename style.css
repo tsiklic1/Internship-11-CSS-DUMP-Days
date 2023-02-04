@@ -601,6 +601,8 @@ h2 {
     align-items: center;
     position: relative;
     margin-bottom: 1120px;
+    overflow-x: clip;
+    overflow-y: visible;
 }
 
 .online-content {
@@ -619,8 +621,9 @@ h2 {
 }
 .online > img{
     position: absolute;
-    top: 288px;
-    left: 6.3%;
+    top: 282px;
+    margin-left: 43.3vw;
+    
 }
 .online-title {
     font-family: 'Fuse V.2 Display';
