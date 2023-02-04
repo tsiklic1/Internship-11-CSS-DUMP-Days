@@ -368,10 +368,16 @@ body {
 
 .inovators {
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 1000px;
 }
 
 .inovators-text-box {
   width: 482px;
+  height: fit-content;
+  position: sticky;
+  margin-top: 96px;
+  top: 96px;
 }
 
 .speaker-box:not(:last-child){
@@ -380,6 +386,10 @@ body {
 
 .inovators-images-container{
   display: flex;
+}
+
+.inovators-box{
+  margin-right: 24px;
 }
 
 .inovators--text {
@@ -423,4 +433,8 @@ body {
 
 .inovators--speaker-img{
   margin-bottom: 12px;
+}
+
+.m-t-112px{
+  margin-top: 112px;
 }
