@@ -763,7 +763,7 @@ h2 {
 }
 
 .card-active {
-    margin-top:49px;
+    margin-top: 49px;
 
     display: flex;
     flex-direction: column;
@@ -981,7 +981,8 @@ h2 {
     margin-top: 9px;
     margin-bottom: 24px;
 }
-.divider-dot{
+
+.divider-dot {
     width: 4px;
     height: 4px;
     background-color: #F5F5F7;
@@ -990,7 +991,8 @@ h2 {
     margin-left: 12px;
     margin-right: 12px;
 }
-.other-sponsors{
+
+.other-sponsors {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1003,24 +1005,102 @@ h2 {
     letter-spacing: -0.01em;
     margin-top: 330px;
 }
-.sponsor-container{
+
+.sponsor-container {
     display: flex;
     flex-direction: column;
     align-self: center;
     justify-self: center;
-    margin-bottom:264px;
+    margin-bottom: 264px;
 }
-.sponsor-container > span{
+
+.sponsor-container>span {
     align-self: center;
     display: flex;
     margin-bottom: 114px;
 }
-.sponsor-row{
+
+.sponsor-row {
     display: flex;
     flex-direction: row;
     margin-left: 9vw;
     margin-bottom: 43px;
 }
-.sponsor-row img{
-    margin-right: 9vw ;
+
+.sponsor-row img {
+    margin-right: 9vw;
+}
+
+.tips {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 25px;
+    overflow-x: clip;
+    
+}
+
+.tips-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 755px;
+    margin-left: 15vw;
+
+}
+
+.tips-content--title {
+    font-family: 'Fuse V.2 Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 68px;
+    letter-spacing: -0.01em;
+    max-width: 450px;
+    width: 31vw;
+    margin-bottom: 73px;
+
+}
+
+.tips-special {
+    font-family: 'Fuse V.2 Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 68px;
+    letter-spacing: -0.01em;
+    background: linear-gradient(89.12deg, #37F3E1 -40.27%, #A109FF 101.93%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.tips-content--desc {
+    margin-bottom: 33px;
+    font-family: 'Fuse V.2 Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.FAQ {
+    font-family: 'Fuse V.2 Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.grey-bar{
+    height: 1px;
+    width: 45vw;
+    max-width: 656px;
+    background-color: #F5F5F7;
+    opacity: 0.1;
+    margin-bottom: 33px;
+}
+.shell{
+    position: absolute;
+    left: 58vw;
 }
