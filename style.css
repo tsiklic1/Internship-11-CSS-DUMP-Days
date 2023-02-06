@@ -49,6 +49,9 @@ body {
 .background {
     background-color: #000000;
     padding-top: 32px;
+    width: 100%;
+    overflow: clip;
+
 }
 
 .navigation {
@@ -1303,7 +1306,8 @@ h2 {
     flex-direction: column;
     align-items: center;
 }
-.application--text{
+
+.application--text {
     margin-right: 248px;
 }
 
@@ -1354,9 +1358,62 @@ h2 {
     max-width: 333px;
     width: 23vw;
 }
-.application-content{
+
+.application-content {
     display: flex;
     flex-direction: row;
     margin-top: 174px;
     margin-bottom: 103px;
+}
+
+@media screen and (max-width: 550px) {
+    .fly-talks {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0vw;
+    }
+
+    .fly-content--title {
+        font-family: 'Fuse V.2 Display';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 54px;
+        line-height: 68px;
+        margin-bottom: 32px;
+    }
+
+    .fly-content--desc {
+        max-width: 327px;
+        margin-bottom: 36px;
+    }
+
+    .fly-talks--content {
+        margin-left: 6.4vw;
+        align-self: flex-start;
+    }
+
+    .fly-talks--pictures {}
+    .online-content{
+        margin-right: 0px;
+        margin-left: 6.4vw;
+    }
+    .online-title {
+        font-size: 54px;
+        line-height: 68px;
+    }
+    .online-content{
+        flex-direction: column;
+    }
+    .online img{
+        transform: scale(0.33);
+        top: 276px;
+        margin-left: 362px;
+    }
+    .online-desc{
+        font-size: 16px;
+        line-height: 24px;
+        min-width: 327px;
+        width: 87.2vw;
+
+    }
 }
