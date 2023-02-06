@@ -1110,10 +1110,13 @@ h2 {
 .jobs {
     display: flex;
     flex-direction: column;
+    align-items: stretch;
 }
-.jobs-wrapper{
-    overflow-x: scroll;
+
+.jobs-wrapper {
+    overflow-x: auto;
 }
+
 .jobs-content {
     margin-left: 22vw;
     display: flex;
@@ -1194,6 +1197,7 @@ h2 {
     width: 56vw;
     max-width: 816px;
 }
+
 .jobs-card--info {
     display: flex;
     flex-direction: column;
@@ -1248,7 +1252,8 @@ h2 {
     display: flex;
     flex-direction: row;
 }
-.jobs-arrow{
+
+.jobs-arrow {
     width: 7.97px;
     height: 7.97px;
     border: solid #F5F5F7 1px;
@@ -1257,20 +1262,101 @@ h2 {
     border-left: hidden;
     align-self: center;
 }
-.jobs-inactive .jobs-card{
+
+.jobs-inactive .jobs-card {
     width: 25vw;
     max-width: 385px;
 }
-.jobs-inactive .info--title{
+
+.jobs-inactive .info--title {
     margin-bottom: 16px;
 }
-.jobs-inactive .info--button{
+
+.jobs-inactive .info--button {
     margin-bottom: 124px;
 }
-.jobs-inactive{
+
+.jobs-inactive {
     display: flex;
     flex-direction: row;
     width: calc(6*25vw);
     max-width: calc(6*385px);
 
+}
+
+.phone {
+    height: 737px;
+    width: 444px;
+    background: url(assets/toppng\ 1.png);
+    position: relative;
+}
+
+.phone img {
+    position: absolute;
+    top: 17px;
+    right: 72px;
+}
+
+.application {
+    margin-top: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.application--text{
+    margin-right: 248px;
+}
+
+.application--title {
+    font-family: 'Fuse V.2 Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 122px;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.application--subtitle {
+    font-family: 'Fuse V.2 Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-bottom: 165px;
+}
+
+.application-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 129px;
+}
+
+.section--title {
+    font-family: 'Fuse V.2 Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 68px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
+
+.section--content {
+    font-family: 'Fuse V.2 Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F5F5F5;
+    max-width: 333px;
+    width: 23vw;
+}
+.application-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 174px;
+    margin-bottom: 103px;
 }
