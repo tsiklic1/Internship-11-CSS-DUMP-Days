@@ -940,6 +940,8 @@ h2 {
 .lower-content--img {
     margin-left: 337px;
     align-self: center;
+    display: flex;
+    flex-direction: row;
 }
 
 .profico-dot {
@@ -969,6 +971,10 @@ h2 {
     border-top: hidden;
     border-left: hidden;
     margin-right: 32px;
+}
+
+.dev1 {
+    display: none;
 }
 
 .inactive--row {
@@ -1135,6 +1141,10 @@ h2 {
     line-height: 68px;
     margin-bottom: 42px;
 
+}
+
+.card--title1 {
+    display: none;
 }
 
 .jobs-content--desc {
@@ -1365,7 +1375,9 @@ h2 {
     margin-top: 174px;
     margin-bottom: 103px;
 }
-
+.profico-logo{
+    display: none;
+}
 @media screen and (max-width: 550px) {
     .fly-talks {
         display: flex;
@@ -1393,27 +1405,203 @@ h2 {
     }
 
     .fly-talks--pictures {}
-    .online-content{
+
+    .online-content {
         margin-right: 0px;
         margin-left: 6.4vw;
     }
+
     .online-title {
         font-size: 54px;
         line-height: 68px;
     }
-    .online-content{
+
+    .online-content {
         flex-direction: column;
     }
-    .online img{
+
+    .online img {
         transform: scale(0.33);
         top: 276px;
-        margin-left: 362px;
+        margin-left: 43.2vw;
     }
-    .online-desc{
+    
+
+    .online-desc {
         font-size: 16px;
         line-height: 24px;
         min-width: 327px;
         width: 87.2vw;
+        margin-bottom: 0px;
+        margin-top: 22px;
+    }
 
+    .schedule-title {
+        font-family: 'Fuse V.2 Display';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 54px;
+        line-height: 68px;
+    }
+
+    .online .header-hero--button {
+        margin-top: 35px;
+    }
+
+    .schedule-gradient {
+        font-weight: 800;
+
+    }
+
+    .schedule-nav {
+        align-self: flex-start;
+        margin-left: 6.4vw;
+        width: 87.4vw;
+        min-width: 328px;
+
+    }
+
+    .schedule-nav--border {
+        width: 87.4vw;
+        min-width: 328px;
+        margin-bottom: 40.5px;
+    }
+
+    .inactive--middle {
+        padding: 0px 16px;
+    }
+
+    .category-active,
+    .category-inactive {
+        padding: 0px 16px;
+    }
+
+    .category-active {
+        padding-left: 0px;
+    }
+
+    .schedule-category {
+        min-width: 328px;
+        margin-left: 7.4vw;
+    }
+
+    .schedule-cards {
+        width: 87.2vw;
+        min-width: 327px;
+    }
+
+    .upper-row {
+        margin-top: 26px;
+        margin-left: 24px;
+    }
+
+    .card--time {
+        min-width: 77px;
+        letter-spacing: -1px;
+        margin-right: 24px;
+    }
+
+    .dev {
+        display: none;
+    }
+
+    .card--title {
+        display: none;
+    }
+
+    .dev1 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 2px 8px 4px;
+        width: 40px;
+        height: 20px;
+        background-color: rgba(255, 255, 255, 0.1);
+        color: #F5F5F7;
+        font-family: 'Fuse V.2 Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.01em;
+        align-self: flex-start;
+        margin-left: 24px;
+        margin-top: 26px;
+    }
+
+    .record-icon {
+        margin-right: 4px;
+    }
+
+    .card--live {
+        margin-right: 23vw;
+    }
+
+    .card--title1 {
+        display: flex;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.01em;
+        color: #F5F5F7;
+        font-family: "Fuse V.2 Display";
+        margin-left: 24px;
+        max-width: 72vw;
+        align-self: flex-start;
+        margin-top: 8px;
+    }
+    .card--text{
+
+        align-self: flex-start;
+        margin-left: 24px;
+        padding-right: 0px;
+        max-width: 74vw;
+    }
+    .lower-row{
+        align-self: flex-start;
+        margin-left: 24px;
+        margin-top: 24px;
+    }
+    .card--grey{
+        width: 74vw;
+        min-width: 279px;
+        align-self: flex-start;
+        margin-left: 24px;
+    }
+    .lower-row>img{
+        min-width: 64px;
+        max-height: 64px;
+        margin-top: 2px;
+    }
+    .lower-content--title{
+        min-width: 26vw;
+    }
+    .lower-content--subtitle{
+        min-width: 52vw;
+        font-size: 16px;
+        letter-spacing: -1px;
+    }
+    .profico-logo{
+        display: flex;
+    }
+    .lower-content--img{
+        
+        display: none;
+        flex-direction: row;
+    }
+    .lower-content--img1{
+        margin-top: 16px ;
+    }
+    .inactive--row{
+        align-self: flex-start;
+        margin-left: 24px;
+        flex-direction: column;
+    }
+    .inactive--row>span{
+        margin-bottom: 8px;
+    }
+    .divider-dot{
+        display: none;
     }
 }
