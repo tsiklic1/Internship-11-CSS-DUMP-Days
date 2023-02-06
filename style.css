@@ -1111,7 +1111,9 @@ h2 {
     display: flex;
     flex-direction: column;
 }
-
+.jobs-wrapper{
+    overflow-x: scroll;
+}
 .jobs-content {
     margin-left: 22vw;
     display: flex;
@@ -1182,16 +1184,16 @@ h2 {
 .jobs-active {
     display: flex;
     flex-direction: row;
-    position: relative;
+    width: calc(3*56vw);
+    max-width: calc(3*816px);
 }
 
 .jobs-card {
     display: flex;
     flex-direction: row;
-    position: absolute;
-    left: 20.3vw;
+    width: 56vw;
+    max-width: 816px;
 }
-
 .jobs-card--info {
     display: flex;
     flex-direction: column;
@@ -1254,4 +1256,21 @@ h2 {
     border-bottom: hidden;
     border-left: hidden;
     align-self: center;
+}
+.jobs-inactive .jobs-card{
+    width: 25vw;
+    max-width: 385px;
+}
+.jobs-inactive .info--title{
+    margin-bottom: 16px;
+}
+.jobs-inactive .info--button{
+    margin-bottom: 124px;
+}
+.jobs-inactive{
+    display: flex;
+    flex-direction: row;
+    width: calc(6*25vw);
+    max-width: calc(6*385px);
+
 }
