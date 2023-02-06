@@ -1037,7 +1037,7 @@ h2 {
     position: relative;
     margin-top: 25px;
     overflow-x: clip;
-    
+
 }
 
 .tips-content {
@@ -1092,7 +1092,8 @@ h2 {
     line-height: 16px;
     color: #FFFFFF;
 }
-.grey-bar{
+
+.grey-bar {
     height: 1px;
     width: 45vw;
     max-width: 656px;
@@ -1100,7 +1101,157 @@ h2 {
     opacity: 0.1;
     margin-bottom: 33px;
 }
-.shell{
+
+.shell {
     position: absolute;
     left: 58vw;
+}
+
+.jobs {
+    display: flex;
+    flex-direction: column;
+}
+
+.jobs-content {
+    margin-left: 22vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.jobs-content--title {
+    letter-spacing: -0.01em;
+    font-family: 'Fuse V.2 Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 68px;
+    margin-bottom: 42px;
+
+}
+
+.jobs-content--desc {
+    max-width: 400px;
+    margin-bottom: 50px;
+    font-family: 'Fuse V.2 Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E9E9EC;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px
+}
+
+.jobs-field {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    background: rgba(245, 245, 247, 0.05);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    margin-right: 8px;
+}
+
+.triangle-left {
+    width: 11.33px;
+    position: absolute;
+    top: 19px;
+    left: 16px;
+    height: 11.33px;
+    border: solid #F5F5F7 1px;
+    transform: rotate(45deg);
+    border-bottom: hidden;
+    border-left: hidden;
+}
+
+.triangle-right {
+    width: 11.33px;
+    position: absolute;
+    top: 19px;
+    left: 16px;
+    height: 11.33px;
+    border: solid #F5F5F7 1px;
+    transform: rotate(45deg);
+    border-top: hidden;
+    border-right: hidden;
+}
+
+.jobs-active {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.jobs-card {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 20.3vw;
+}
+
+.jobs-card--info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 55px;
+    max-width: 233px;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+.tree {
+    margin-left: 25px;
+}
+
+
+.info--title {
+    font-family: 'Fuse V.2 Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 140px;
+}
+
+.info--location span {
+    margin-right: 13px;
+    font-family: 'Fuse V.2 Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.jobs-card-text {
+    font-family: 'Fuse V.2 Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E9E9EC;
+    opacity: 0.8;
+    margin-top: 35px;
+    margin-bottom: 16px;
+    max-width: 396px;
+}
+
+.jobs-card-button {
+    font-family: 'Fuse V.2 Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    flex-direction: row;
+}
+.jobs-arrow{
+    width: 7.97px;
+    height: 7.97px;
+    border: solid #F5F5F7 1px;
+    transform: rotate(45deg);
+    border-bottom: hidden;
+    border-left: hidden;
+    align-self: center;
 }
