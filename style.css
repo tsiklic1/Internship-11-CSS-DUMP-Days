@@ -31,6 +31,7 @@ body {
 .background {
   background-color: #000000;
   padding-top: 32px;
+  overflow-x: clip;
 }
 
 .navigation {
@@ -2468,12 +2469,14 @@ h2 {
   .grey-bar {
     width: 327px;
   }
-  .shell {
+  .shell{
     position: relative;
-    transform: scale(2) rotate(8deg);
-    left: 226px;
     top: 152px;
-  }
+    width:848px;
+    rotate: 8deg;
+    height: 721px;
+    align-self: center;
+}
 }
 
 @media screen and (max-width: 375px) {
