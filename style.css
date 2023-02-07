@@ -1906,5 +1906,35 @@ h2 {
         width: 322px;
         height: 492px;
     }
-
+    .tips{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .tips-content{
+        margin-left: 6.4vw;
+        margin-top: 0px;
+    }
+    .tips-content--title{
+        display: flex;
+        width: 86vw;
+        max-width: 86vw;
+        flex-wrap: wrap;
+        margin-bottom: 92px;
+    }
+    .tips-content--desc{
+        line-height: 24px;
+        margin-bottom: 30px;
+        width: 293px;
+    }
+    .grey-bar{
+        width: 327px;
+    }
+    .shell{
+        position: relative;
+        top: 152px;
+        width:848px;
+        rotate: 8deg;
+        height: 721px;
+        align-self: center;
+    }
 }
