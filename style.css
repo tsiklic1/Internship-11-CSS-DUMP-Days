@@ -151,6 +151,101 @@ body {
   display: none;
 }
 
+/* header-hero-jan */
+.header-hero {
+  display: flex;
+  flex-direction: column;
+  margin-top: 148px;
+  margin-bottom: 115px;
+}
+
+.header-hero--conference {
+  font-family: "Fuse V.2 Display";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  font-style: normal;
+  color: #f5f5f7;
+}
+
+.header-hero--title {
+  width: 608px;
+  height: 120px;
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 122px;
+  line-height: 120px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  background: linear-gradient(
+    44.61deg,
+    #00b5c1 9.43%,
+    #4336b9 41.88%,
+    #fa4343 106.56%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-self: center;
+  margin-top: 16px;
+}
+
+.header-hero--content {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  color: #f5f5f7;
+  font-family: "Fuse V.2 Display";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  margin-top: 88px;
+}
+
+.content-elipse {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #f5f5f7;
+  align-self: center;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.header-hero--button {
+  margin-top: 35px;
+  align-self: center;
+  background-color: #000000;
+  color: #f5f5f7;
+  font-family: "Fuse V.2 Display";
+  color: #f5f5f7;
+  line-height: 16px;
+  line-break: none;
+  font-weight: 800;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 16px;
+  /*background: linear-gradient(44.61deg, #00B5C1 9.43%, #4336B9 41.88%, #FA4343 106.56%);
+  --webkit-background-clip: border;
+  -webkit-text-fill-color: none;*/
+}
+
+.header-hero--button > div {
+  padding: 14px 32px 14px 32px;
+}
+
+.header-hero--sub {
+  margin-top: 366px;
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #f5f5f7;
+}
+
 .stats {
   display: flex;
   overflow-x: scroll;
@@ -271,6 +366,84 @@ body {
   margin: 0;
 }
 
+/*jan-fly-talks */
+
+.fly-talks {
+  margin-top: 423px;
+  margin-bottom: 552px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7.2vw;
+}
+
+h2 {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 122px;
+  line-height: 120px;
+  letter-spacing: -0.02em;
+  color: #f5f5f7;
+}
+
+.fly-content--desc {
+  font-family: "Fuse V.2 Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f5f5f7;
+  margin-top: 56px;
+  margin-bottom: 54px;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.51);
+  max-width: 400px;
+}
+
+.fly-talks--pictures {
+  width: 1000px;
+  height: 500px;
+  margin-left: 122px;
+  position: relative;
+  align-self: center;
+}
+
+.pic1 {
+  margin-right: 0;
+  position: absolute;
+  width: 304px;
+  height: 400px;
+  left: 0px;
+  top: 280px;
+  background-position: center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(assets/Slika\ 17.png);
+}
+
+.pic2 {
+  position: absolute;
+  width: 651px;
+  height: 544px;
+  left: 25px;
+  bottom: 100px;
+  background-image: url("assets/Slika\ 16.png");
+  /* Photo shadow */
+  background-position: center;
+  filter: drop-shadow(-13px -25px 120px rgba(0, 0, 0, 0.34));
+}
+
+.pic3 {
+  position: absolute;
+  width: 565px;
+  height: 700px;
+  left: 210px;
+  top: 152px;
+  background-position: center;
+  background-image: url("assets/Slika\ 25.png");
+  filter: drop-shadow(-13px -25px 120px rgba(0, 0, 0, 0.34));
+}
+
 .fesb {
   background-color: #000000;
   position: relative;
@@ -338,9 +511,427 @@ body {
   left: 964px;
 }
 
+/* jan-online */
+.online {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 1120px;
+  overflow-x: clip;
+  overflow-y: visible;
+}
+
+.online-content {
+  display: flex;
+  margin-right: 50.5vw;
+  flex-direction: row;
+  margin-left: 7.2vw;
+}
+
+.online-content button {
+  align-self: flex-start;
+}
+
+.online-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.online > img {
+  position: absolute;
+  top: 282px;
+  margin-left: 43.3vw;
+}
+
+.online-title {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 122px;
+  width: 504px;
+  line-height: 120px;
+  letter-spacing: -0.02em;
+  width: fit-content;
+}
+
+.online-desc {
+  font-family: "Fuse V.2 Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f5f5f7;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.51);
+  max-width: 400px;
+  margin-top: 46px;
+  margin-bottom: 40px;
+}
+
+.online-subtitle {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 260px;
+  margin-bottom: 457px;
+}
+
+/* jan-cards */
+.schedule {
+  margin-bottom: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.schedule-title {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-size: 122px;
+  line-height: 120px;
+  margin-bottom: 125px;
+}
+
+.schedule-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 920px;
+  height: 50px;
+}
+
+.schedule-nav--border {
+  background: #f5f5f7;
+  opacity: 0.1;
+  width: 920px;
+  height: 1px;
+  margin-bottom: 53px;
+}
+
+.schedule-gradient {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  background: linear-gradient(
+    124.93deg,
+    #0d8fd3 5.44%,
+    #0b60bb 17.95%,
+    #0a3aa7 36.44%,
+    #6a387d 69.53%,
+    #c53754 105.59%,
+    #fa5240 117.57%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  padding: 15px;
+}
+
+.schedule-grey {
+  padding: 15px;
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #54545f;
+  margin-left: 42px;
+}
+
+.schedule-category {
+  display: flex;
+  flex-direction: row;
+}
+
+.category-active {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 0px 24px 0px 24px;
+}
+
+.category-inactive {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #54545f;
+  line-height: 16px;
+  padding: 0px 24px;
+}
+
+.inactive--middle {
+  border-right: 1px solid #8a8a99;
+  border-left: 1px solid #8a8a99;
+}
+
+.schdule-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-active {
+  margin-top: 49px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(245, 245, 247, 0.05);
+  backdrop-filter: blur(2px);
+}
+
+.upper-row {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  margin-top: 32px;
+  justify-content: space-around;
+  margin-left: 32px;
+}
+
+.card--time {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  margin-right: 39px;
+}
+
+.dev {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 2px 8px 4px;
+  width: 40px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #f5f5f7;
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  margin-right: 11px;
+}
+
+.card--title {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 18px;
+  margin-right: 11px;
+}
+
+.yt-icon {
+  width: 20px;
+  height: 14.7px;
+  background-color: #f5f5f7;
+  border-radius: 25%;
+  position: relative;
+  margin-right: 11px;
+}
+
+.triangle {
+  height: 8px;
+  width: 6px;
+  position: absolute;
+  top: 2.73px;
+  left: 7.5px;
+  border: 5px solid transparent;
+  border-left-color: black;
+  border-radius: 15%;
+}
+
+.inner-icon {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: #ff3636;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+
+.sponsor-row-single {
+  margin-right: 0px;
+  margin-left: 0px;
+  align-self: center;
+  margin-bottom: 43px;
+}
+
+.record-icon {
+  height: 14px;
+  width: 14px;
+  position: relative;
+  border: solid 1.5px #ff3636;
+  border-radius: 50%;
+  margin-right: 11px;
+}
+
+.card--live {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  margin-right: 230px;
+}
+
+.card--activator {
+  width: 11.33px;
+  height: 11.33px;
+  border: solid #f5f5f7 1px;
+  transform: rotate(45deg);
+  border-bottom: hidden;
+  border-right: hidden;
+  margin-right: 32px;
+}
+
+.card--text {
+  margin-top: 25px;
+  margin-left: 160px;
+  max-width: 797px;
+  padding-right: 60px;
+  font-family: "Fuse V.2 Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 24px;
+}
+
+.card--grey {
+  width: 728px;
+  margin-left: 97px;
+  background: #f5f5f7;
+  opacity: 0.1;
+  height: 1px;
+}
+
+.lower-row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 160px;
+  align-self: flex-start;
+  margin-top: 19px;
+  margin-bottom: 36px;
+}
+
+.lower-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 17px;
+}
+
+.lower-content--title {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  margin-bottom: 6px;
+}
+
+.lower-content--subtitle {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.lower-content--img {
+  margin-left: 337px;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.profico-dot {
+  width: 4px;
+  height: 5px;
+  background-color: #f5f5f7;
+  align-self: center;
+  margin-top: 15px;
+}
+
+.card-inactive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(245, 245, 247, 0.05);
+  backdrop-filter: blur(2px);
+  margin-top: 16px;
+}
+
+.tree2 {
+  display: none;
+}
+
+.card--disabled {
+  width: 11.33px;
+  height: 11.33px;
+  border: solid #f5f5f7 1px;
+  transform: rotate(45deg);
+  border-top: hidden;
+  border-left: hidden;
+  margin-right: 32px;
+}
+
+.dev1 {
+  display: none;
+}
+
+.inactive--row {
+  display: flex;
+  flex-direction: row;
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  margin-left: 160px;
+  align-self: flex-start;
+  margin-top: 9px;
+  margin-bottom: 24px;
+}
+
+.divider-dot {
+  width: 4px;
+  height: 4px;
+  background-color: #f5f5f7;
+  border-radius: 50%;
+  align-self: center;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
 .inovators {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 524px;
 }
 
 .inovators-text-box {
@@ -359,7 +950,7 @@ body {
 .inovators-images-container {
   display: flex;
   width: 696px;
-  height: 2110px;
+  height: 1836px;
   flex-direction: column;
   flex-wrap: wrap;
 }
@@ -413,6 +1004,47 @@ body {
 
 .m-t-112px {
   margin-top: 112px;
+}
+
+.quote {
+  width: 799px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote--small-text {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #f5f5f7;
+  margin-top: 0px;
+  margin-bottom: 26px;
+}
+
+.quote--big-text {
+  margin: 0;
+  width: 799px;
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 68px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  background: linear-gradient(
+    44.61deg,
+    #00b5c1 9.43%,
+    #4336b9 41.88%,
+    #fa4343 106.56%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 515px;
 }
 
 .golden-sponsors {
@@ -476,6 +1108,326 @@ body {
   margin-right: 40px;
 }
 
+/* jan-other-sponsors */
+.other-sponsors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 68px;
+  letter-spacing: -0.01em;
+  margin-top: 240px;
+}
+
+.sponsor-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+  margin-bottom: 264px;
+}
+
+.sponsor-container > span {
+  align-self: center;
+  display: flex;
+  margin-bottom: 114px;
+}
+
+.sponsor-row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 9vw;
+  margin-bottom: 43px;
+  max-width: 75vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sponsor-row img {
+  margin-right: 9vw;
+  margin-bottom: 43px;
+}
+
+/* jan-jobs */
+.jobs {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.hidden-on-big {
+  display: none;
+}
+
+.jobs-wrapper {
+  overflow-x: auto;
+}
+
+.jobs-content {
+  margin-left: 22vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.jobs-content--title {
+  letter-spacing: -0.01em;
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 68px;
+  margin-bottom: 42px;
+}
+
+.card--title1 {
+  display: none;
+}
+
+.dont-hide {
+  display: flex;
+  margin-left: 22px;
+}
+
+.jobs-content--desc {
+  max-width: 400px;
+  margin-bottom: 50px;
+  font-family: "Fuse V.2 Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #e9e9ec;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+
+.jobs-field {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  background: rgba(245, 245, 247, 0.05);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  margin-right: 8px;
+}
+
+.triangle-left {
+  width: 11.33px;
+  position: absolute;
+  top: 19px;
+  left: 16px;
+  height: 11.33px;
+  border: solid #f5f5f7 1px;
+  transform: rotate(45deg);
+  border-bottom: hidden;
+  border-left: hidden;
+}
+
+.triangle-right {
+  width: 11.33px;
+  position: absolute;
+  top: 19px;
+  left: 16px;
+  height: 11.33px;
+  border: solid #f5f5f7 1px;
+  transform: rotate(45deg);
+  border-top: hidden;
+  border-right: hidden;
+}
+
+.jobs-active {
+  display: flex;
+  flex-direction: row;
+  width: calc(3 * 56vw);
+  max-width: calc(3 * 816px);
+}
+
+.jobs-card {
+  display: flex;
+  flex-direction: row;
+  width: 56vw;
+  max-width: 816px;
+}
+
+.jobs-card--info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 55px;
+  max-width: 233px;
+  margin-top: 35px;
+  margin-left: 25px;
+}
+
+.tree {
+  margin-left: 25px;
+}
+
+.info--title {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 40px;
+  margin-bottom: 140px;
+}
+
+.info--location span {
+  margin-right: 13px;
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.info--location1 {
+  display: none;
+}
+
+.jobs-card-text {
+  font-family: "Fuse V.2 Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #e9e9ec;
+  opacity: 0.8;
+  margin-top: 35px;
+  margin-bottom: 16px;
+  max-width: 396px;
+}
+
+.jobs-card-button {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  flex-direction: row;
+}
+
+.jobs-arrow {
+  width: 7.97px;
+  height: 7.97px;
+  border: solid #f5f5f7 1px;
+  transform: rotate(45deg);
+  border-bottom: hidden;
+  border-left: hidden;
+  align-self: center;
+}
+
+.jobs-inactive .jobs-card {
+  width: 25vw;
+  max-width: 385px;
+}
+
+.jobs-inactive .info--title {
+  margin-bottom: 16px;
+}
+
+.jobs-inactive .info--button {
+  margin-bottom: 124px;
+}
+
+.jobs-inactive {
+  display: flex;
+  flex-direction: row;
+  width: calc(6 * 25vw);
+  max-width: calc(6 * 385px);
+}
+
+/* jan-application */
+.phone {
+  height: 737px;
+  width: 444px;
+  background: url(assets/toppng\ 1.png);
+  position: relative;
+}
+
+.phone img {
+  position: absolute;
+  top: 17px;
+  right: 72px;
+}
+
+.application {
+  margin-top: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.application--text {
+  margin-right: 248px;
+}
+
+.application--title {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 122px;
+  line-height: 120px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.application--subtitle {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-bottom: 165px;
+}
+
+.application-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 129px;
+}
+
+.section--title {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 68px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  margin-bottom: 27px;
+}
+
+.section--content {
+  font-family: "Fuse V.2 Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f5f5f5;
+  max-width: 333px;
+  width: 23vw;
+}
+
+.application-content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 174px;
+  margin-bottom: 103px;
+}
+
+.profico-logo {
+  display: none;
+}
+
 .testimonials {
   position: relative;
   max-width: 1440px;
@@ -523,6 +1475,81 @@ body {
   color: #f5f5f7;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 32px;
+}
+
+/* jan-tips */
+.tips {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 25px;
+  overflow-x: clip;
+  margin-bottom: 576px;
+}
+
+.tips-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 755px;
+  margin-left: 15vw;
+}
+
+.tips-content--title {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 68px;
+  letter-spacing: -0.01em;
+  max-width: 450px;
+  width: 31vw;
+  margin-bottom: 73px;
+}
+
+.tips-special {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 68px;
+  letter-spacing: -0.01em;
+  background: linear-gradient(89.12deg, #37f3e1 -40.27%, #a109ff 101.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.tips-content--desc {
+  margin-bottom: 33px;
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.FAQ {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.grey-bar {
+  height: 1px;
+  width: 45vw;
+  max-width: 656px;
+  background-color: #f5f5f7;
+  opacity: 0.1;
+  margin-bottom: 33px;
+}
+
+.shell {
+  position: absolute;
+  left: 58vw;
 }
 
 .footer-top {
@@ -737,6 +1764,17 @@ body {
     margin-right: 0;
   }
 
+  .quote {
+    width: 290px;
+  }
+
+  .quote--big-text {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    width: 290px;
+  }
+
   /* TESTIMONIALS */
   .testimonials {
     display: flex;
@@ -811,6 +1849,7 @@ body {
   .inovators {
     width: fit-content;
     margin: auto;
+    margin-bottom: 528px;
   }
 
   .inovators--text__small {
@@ -916,6 +1955,524 @@ body {
 
   .footer-bottom-box--text {
     text-decoration: none;
+  }
+
+  /* jan media-query */
+  .fly-talks {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0vw;
+  }
+
+  .fly-content--title {
+    font-family: "Fuse V.2 Display";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 68px;
+    margin-bottom: 32px;
+  }
+
+  .fly-content--desc {
+    max-width: 327px;
+    margin-bottom: 36px;
+  }
+
+  .fly-talks--content {
+    margin-left: 6.4vw;
+    align-self: flex-start;
+  }
+
+  .fly-talks--pictures {
+  }
+
+  .online-content {
+    margin-right: 0px;
+    margin-left: 6.4vw;
+  }
+
+  .online-title {
+    font-size: 54px;
+    line-height: 68px;
+  }
+
+  .online-content {
+    flex-direction: column;
+  }
+
+  .online img {
+    transform: scale(0.33);
+    top: 276px;
+    margin-left: 43.2vw;
+  }
+
+  .online-desc {
+    font-size: 16px;
+    line-height: 24px;
+    min-width: 327px;
+    width: 87.2vw;
+    margin-bottom: 0px;
+    margin-top: 22px;
+  }
+
+  .schedule-title {
+    font-family: "Fuse V.2 Display";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 68px;
+  }
+
+  .online .header-hero--button {
+    margin-top: 35px;
+  }
+
+  .schedule-gradient {
+    font-weight: 800;
+  }
+
+  .schedule-nav {
+    align-self: flex-start;
+    margin-left: 6.4vw;
+    width: 87.4vw;
+    min-width: 328px;
+  }
+
+  .schedule-nav--border {
+    width: 87.4vw;
+    min-width: 328px;
+    margin-bottom: 40.5px;
+  }
+
+  .inactive--middle {
+    padding: 0px 16px;
+  }
+
+  .category-active,
+  .category-inactive {
+    padding: 0px 16px;
+  }
+
+  .category-active {
+    padding-left: 0px;
+  }
+
+  .schedule-category {
+    min-width: 328px;
+    margin-left: 7.4vw;
+  }
+
+  .schedule-cards {
+    width: 87.2vw;
+    min-width: 327px;
+  }
+
+  .upper-row {
+    margin-top: 26px;
+    margin-left: 24px;
+  }
+
+  .card--time {
+    min-width: 77px;
+    letter-spacing: -1px;
+    margin-right: 24px;
+  }
+
+  .dev {
+    display: none;
+  }
+
+  .card--title {
+    display: none;
+  }
+
+  .dev1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2px 8px 4px;
+    width: 40px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #f5f5f7;
+    font-family: "Fuse V.2 Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    align-self: flex-start;
+    margin-left: 24px;
+    margin-top: 26px;
+  }
+
+  .record-icon {
+    margin-right: 4px;
+  }
+
+  .card--live {
+    margin-right: 23vw;
+  }
+
+  .card--title1 {
+    display: flex;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #f5f5f7;
+    font-family: "Fuse V.2 Display";
+    margin-left: 24px;
+    max-width: 72vw;
+    align-self: flex-start;
+    margin-top: 8px;
+  }
+
+  .card--text {
+    align-self: flex-start;
+    margin-left: 24px;
+    padding-right: 0px;
+    max-width: 74vw;
+  }
+
+  .lower-row {
+    align-self: flex-start;
+    margin-left: 24px;
+    margin-top: 24px;
+  }
+
+  .card--grey {
+    width: 74vw;
+    min-width: 279px;
+    align-self: flex-start;
+    margin-left: 24px;
+  }
+
+  .lower-row > img {
+    min-width: 64px;
+    max-height: 64px;
+    margin-top: 2px;
+  }
+
+  .lower-content--title {
+    min-width: 26vw;
+  }
+
+  .lower-content--subtitle {
+    min-width: 52vw;
+    font-size: 16px;
+    letter-spacing: -1px;
+  }
+
+  .profico-logo {
+    display: flex;
+  }
+
+  .lower-content--img {
+    display: none;
+    flex-direction: row;
+  }
+
+  /*posibly remove 24 px margins*/
+  .lower-content--img1 {
+    margin-top: 16px;
+  }
+
+  .profico-dot {
+    align-self: flex-end;
+    margin-bottom: 4px;
+  }
+
+  .inactive--row {
+    align-self: flex-start;
+    margin-left: 24px;
+    flex-direction: column;
+  }
+
+  .inactive--row > span {
+    margin-bottom: 8px;
+  }
+
+  .divider-dot {
+    display: none;
+  }
+
+  .sponsor-container span {
+    font-weight: 800;
+    font-size: 9.6vw;
+    line-height: 40px;
+    max-width: 82vw;
+    text-align: center;
+  }
+
+  .sponsor-row {
+    flex-wrap: wrap;
+    align-items: center;
+    align-self: center;
+  }
+
+  .sponsor-row img {
+    margin-bottom: 50px;
+  }
+
+  .sponsor-row :nth-child(odd) {
+    margin-bottom: 50px;
+    margin-right: 22vw;
+  }
+
+  .sponsor-row-single {
+    margin-right: 0px;
+    margin-left: 0px;
+    align-self: center;
+    margin-bottom: 50px;
+  }
+
+  .hidden-on-big {
+    display: flex;
+  }
+
+  .sponsor-container {
+    margin-bottom: 164px;
+  }
+
+  .hide-on-small {
+    display: none;
+  }
+
+  .jobs-content--title {
+    font-size: 54px;
+    line-height: 68px;
+  }
+
+  .jobs-content {
+    margin-left: 24px;
+  }
+
+  .jobs-content--desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 87.2vw;
+  }
+
+  .buttons {
+    display: none;
+  }
+
+  .jobs-wrapper {
+    flex-direction: column;
+  }
+
+  .jobs-active {
+    flex-direction: column;
+  }
+
+  .jobs-card {
+    flex-direction: column;
+    position: relative;
+    left: 10vw;
+  }
+
+  .jobs-card > img {
+  }
+
+  .tree2 {
+    display: flex;
+  }
+
+  .tree {
+    display: none;
+  }
+
+  .jobs-card--info {
+    margin-left: 0px;
+  }
+
+  .info--logo {
+    display: flex;
+    margin-bottom: 16px;
+    flex-direction: row;
+  }
+
+  .jobs-active {
+    min-width: none;
+    width: unset;
+  }
+
+  .info--location1 {
+    display: flex;
+    font-family: "Fuse V.2 Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    height: 16px;
+    margin-left: 48vw;
+  }
+
+  .jobs-wrapper {
+    overflow: visible;
+  }
+
+  .info--location {
+    display: none;
+  }
+
+  .info--title {
+    margin-bottom: 40px;
+  }
+
+  .jobs-card-text {
+    margin-top: 0px;
+    width: 78.6vw;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+  }
+
+  .dont-hide {
+    display: flex;
+    margin-left: 65vw;
+    margin-top: 50px;
+  }
+
+  .jobs-inactive {
+    margin-top: 40px;
+    flex-direction: column;
+    width: unset;
+  }
+
+  .jobs-inactive .jobs-card {
+    width: unset;
+  }
+
+  .spc {
+    margin-top: 0px;
+    margin-bottom: 240px;
+  }
+
+  .jobs {
+    margin-bottom: 0px;
+  }
+
+  .jobs-inactive .info--title {
+    margin-bottom: 40px;
+  }
+
+  .application {
+    flex-direction: column;
+  }
+
+  .application--title {
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 68px;
+    margin-bottom: 0px;
+  }
+
+  .application-content {
+    flex-direction: column;
+    flex-flow: column-reverse;
+    margin-top: 0px;
+  }
+
+  .application--subtitle {
+    font-size: 16px;
+  }
+  .application--text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .phone {
+    margin-top: 119px;
+    transform: scale(0.9);
+    margin-bottom: 48px;
+    margin-left: 13vw;
+  }
+
+  .section--title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .section--content {
+    font-size: 16px;
+    line-height: 24px;
+    width: 82vw;
+  }
+
+  .header-hero--conference {
+    font-weight: 400;
+    font-size: 4.2vw;
+    line-height: 16px;
+  }
+
+  .header-hero--title {
+    font-size: 14.4vw;
+    line-height: 68px;
+  }
+  .pic1 {
+    background: url(assets/slika1.png);
+    background-position: center center;
+    top: 67px;
+    left: 0px;
+    width: 375px;
+    height: 450px;
+    z-index: 3;
+  }
+  .fly-talks--pictures {
+    width: 100%;
+    margin-left: 6.4vw;
+    position: relative;
+  }
+  .pic2 {
+    background: url(assets/slika3.png);
+    background-position: center center;
+    top: 0px;
+    left: 90px;
+    z-index: 4;
+    width: 296px;
+    height: 543px;
+  }
+  .pic3 {
+    background: url(assets/slika2.png);
+    background-position: center center;
+    top: 235px;
+    left: 24px;
+    width: 322px;
+    height: 492px;
+  }
+
+  .tips {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .tips-content {
+    margin-left: 6.4vw;
+    margin-top: 0px;
+  }
+  .tips-content--title {
+    display: flex;
+    width: 86vw;
+    max-width: 86vw;
+    flex-wrap: wrap;
+    margin-bottom: 92px;
+  }
+  .tips-content--desc {
+    line-height: 24px;
+    margin-bottom: 30px;
+    width: 293px;
+  }
+  .grey-bar {
+    width: 327px;
+  }
+  .shell {
+    position: relative;
+    transform: scale(2) rotate(8deg);
+    left: 226px;
+    top: 152px;
   }
 }
 
