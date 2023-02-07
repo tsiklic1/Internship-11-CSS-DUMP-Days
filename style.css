@@ -83,12 +83,9 @@ body {
   font-weight: 800;
   font-size: 16px;
   line-height: 16px;
-  /* identical to box height, or 100% */
-
   letter-spacing: 0.08em;
   color: #f5f5f7;
   text-decoration: none;
-  /* font-weight: 500; */
 }
 
 .navigation-content-list {
@@ -102,39 +99,38 @@ body {
   height: fit-content;
 }
 
-.navigation-content-list--link-text::after {
-  content: "";
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  background: linear-gradient(0deg, red, magenta);
-  --webkit-background-clip: text;
-  --webkit-text-fill-colo: transparent;
-  background-clip: text;
-  opacity: 0;
-  transition: all 3s ease-in-out;
-}
-
-.navigation-content-list--link-text:hover::after {
-  opacity: 1;
-}
-
 /* ------------ */
 .navigation-content-list--content:not(:last-child) {
   margin-right: 48px;
 }
 
 .navigation-content-list--link-text {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 16px;
   text-decoration: none;
-  position: relative;
+  background: linear-gradient(
+    44.61deg,
+    #00b5c1 9.43%,
+    #4336b9 41.88%,
+    #fa4343 106.56%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: #f5f5f7ff;
+  text-align: center;
+  transition: color 200ms ease-in-out;
+}
+
+.navigation-content-list--link-text:hover {
+  color: #f5f5f700;
 }
 
 .button-background {
   height: calc(16px + 14px * 2);
+  width: fit-content;
   padding: 1px;
   display: flex;
   align-items: center;
@@ -153,6 +149,22 @@ body {
 .button {
   background-color: black;
   padding: 13px 31px 13px 31px;
+  border: 1px transparent;
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #f5f5f7;
+}
+
+.button:hover {
+  background-color: white;
+  color: #000000;
+  transition: background-color 200ms ease-in-out, color 200ms ease-in-out;
 }
 
 /* .navigation-logo-box--link-text:not(.button):after{
@@ -502,7 +514,7 @@ body {
 .testimonials {
   position: relative;
   max-width: 1440px;
-  margin:auto;
+  margin: auto;
 }
 
 .luka-img {
@@ -538,4 +550,112 @@ body {
   color: #f5f5f7;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 32px;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socials-container {
+  margin-bottom: 125px;
+}
+
+.footer--text {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  color: #f5f5f7;
+  margin: 0;
+}
+
+.footer--text__heading {
+  font-weight: 800;
+  font-size: 122px;
+  line-height: 120px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  margin-bottom: 49px;
+}
+
+.footer--text__small {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 24px;
+}
+
+.footer--social-link:not(:last-child) {
+  margin-right: 37px;
+}
+
+.question-container {
+  width: 504px;
+}
+
+.question-info-container {
+  height: 66px;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.question-info-container:not(:first-child) {
+  border-bottom: solid 1px #f5f5f71a;
+}
+
+.question-info-container:first-child {
+  background-color: #f5f5f70d;
+}
+
+.footer--text__question {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.question-submit-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 215px;
+}
+
+.footer--text__right {
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  margin-bottom: 32px;
+  margin-top: 8px;
+}
+
+.line{
+  height: 1px;
+  width: 100%;
+  background-color: #f5f5f7;
+  opacity: 0.1;
+}
+
+.footer-bottom{
+  padding-left: 208px;
+  padding-right: 208px;
+  height: 104px;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+}
+
+.footer-bottom-box{
+  display: flex;
+  align-items: center;
+}
+
+.footer-bottom-box__right{
+  justify-content: flex-end;
+}
+
+.footer-bottom--social-img{
+  margin-right: 33px;
 }
