@@ -308,9 +308,10 @@ body {
     position: absolute;
 }
 
-.hide-on-small{
+.hide-on-small {
     display: flex;
 }
+
 .fesb-text-box {
     position: absolute;
     z-index: 1;
@@ -853,12 +854,14 @@ h2 {
     top: 3px;
     left: 3px;
 }
-.sponsor-row-single{
+
+.sponsor-row-single {
     margin-right: 0px;
     margin-left: 0px;
     align-self: center;
     margin-bottom: 43px;
 }
+
 .record-icon {
     height: 14px;
     width: 14px;
@@ -971,6 +974,10 @@ h2 {
 
 }
 
+.tree2 {
+    display: none;
+}
+
 .card--disabled {
     width: 11.33px;
     height: 11.33px;
@@ -1043,8 +1050,8 @@ h2 {
     margin-left: 9vw;
     margin-bottom: 43px;
     max-width: 75vw;
-    flex-wrap: wrap;  
-    justify-content: center;  
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .sponsor-row img {
@@ -1133,9 +1140,11 @@ h2 {
     flex-direction: column;
     align-items: stretch;
 }
-.hidden-on-big{
+
+.hidden-on-big {
     display: none;
 }
+
 .jobs-wrapper {
     overflow-x: auto;
 }
@@ -1160,7 +1169,10 @@ h2 {
 .card--title1 {
     display: none;
 }
-
+.dont-hide{
+    display: flex;
+    margin-left:22px;
+}
 .jobs-content--desc {
     max-width: 400px;
     margin-bottom: 50px;
@@ -1255,6 +1267,10 @@ h2 {
     font-weight: 400;
     font-size: 16px;
     line-height: 16px;
+}
+
+.info--location1 {
+    display: none;
 }
 
 .jobs-card-text {
@@ -1491,7 +1507,7 @@ h2 {
     .category-inactive {
         padding: 0px 16px;
     }
-    
+
     .category-active {
         padding-left: 0px;
     }
@@ -1641,37 +1657,150 @@ h2 {
 
     .sponsor-container span {
         font-weight: 800;
-        font-size:  9.6vw;;
+        font-size: 9.6vw;
+        ;
         line-height: 40px;
         max-width: 83vw;
         text-align: center;
     }
-    .sponsor-row{
+
+    .sponsor-row {
         flex-wrap: wrap;
         max-width: 100vw;
         align-items: center;
         align-self: center;
     }
-    .sponsor-row img{
+
+    .sponsor-row img {
         margin-bottom: 50px;
     }
-    .sponsor-row :nth-child(odd){
+
+    .sponsor-row :nth-child(odd) {
         margin-bottom: 50px;
         margin-right: 22vw;
     }
-    .sponsor-row-single{
+
+    .sponsor-row-single {
         margin-right: 0px;
         margin-left: 0px;
         align-self: center;
         margin-bottom: 50px;
     }
-    .hidden-on-big{
+
+    .hidden-on-big {
         display: flex;
     }
-    .sponsor-container{
+
+    .sponsor-container {
         margin-bottom: 164px;
     }
-    .hide-on-small{
+
+    .hide-on-small {
         display: none;
+    }
+
+    .jobs-content--title {
+        font-size: 54px;
+        line-height: 68px;
+    }
+
+    .jobs-content {
+        margin-left: 24px;
+    }
+
+    .jobs-content--desc {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 87.2vw;
+    }
+
+    .buttons {
+        display: none;
+    }
+
+    .jobs-wrapper {
+        flex-direction: column;
+    }
+
+    .jobs-active {
+        flex-direction: column;
+    }
+
+    .jobs-card {
+        flex-direction: column;
+        position: relative;
+        left: 10vw;
+    }
+
+    .jobs-card>img {
+    }
+
+    .tree2 {
+        display: flex;
+    }
+
+    .tree {
+        display: none;
+    }
+
+    .jobs-card--info {
+        margin-left: 0px;
+    }
+
+    .info--logo {
+        display: flex;
+        margin-bottom: 16px;
+        flex-direction: row;
+    }
+    .jobs-active{
+        min-width: none;
+        width: unset;
+    }
+
+    .info--location1 {
+        display: flex;
+        font-family: 'Fuse V.2 Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        height: 16px;
+        margin-left: 48vw;
+
+    }
+    .jobs-wrapper{
+        overflow: visible;
+    }
+    .info--location {
+        display: none;
+    }
+    .info--title{
+        margin-bottom: 40px;
+    }
+    .jobs-card-text{
+        margin-top: 0px;
+        width: 78.6vw;
+        font-size: 16px;
+        letter-spacing: -0.01em;
+    }
+    .dont-hide{
+        display: flex;
+        margin-left:65vw;
+        margin-top: 50px;
+    }
+    .jobs-inactive{
+        margin-top: 40px;
+        flex-direction: column;
+        width: unset;
+    }
+    .jobs-inactive .jobs-card{
+        width: unset;
+    }
+    .spc{
+        margin-top: 0px;
+    }
+    .jobs-inactive .info--title{
+        margin-bottom: 40px;
     }
 }
