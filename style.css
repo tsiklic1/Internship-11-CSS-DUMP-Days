@@ -1169,10 +1169,12 @@ h2 {
 .card--title1 {
     display: none;
 }
-.dont-hide{
+
+.dont-hide {
     display: flex;
-    margin-left:22px;
+    margin-left: 22px;
 }
+
 .jobs-content--desc {
     max-width: 400px;
     margin-bottom: 50px;
@@ -1733,8 +1735,7 @@ h2 {
         left: 10vw;
     }
 
-    .jobs-card>img {
-    }
+    .jobs-card>img {}
 
     .tree2 {
         display: flex;
@@ -1753,7 +1754,8 @@ h2 {
         margin-bottom: 16px;
         flex-direction: row;
     }
-    .jobs-active{
+
+    .jobs-active {
         min-width: none;
         width: unset;
     }
@@ -1769,38 +1771,96 @@ h2 {
         margin-left: 48vw;
 
     }
-    .jobs-wrapper{
+
+    .jobs-wrapper {
         overflow: visible;
     }
+
     .info--location {
         display: none;
     }
-    .info--title{
+
+    .info--title {
         margin-bottom: 40px;
     }
-    .jobs-card-text{
+
+    .jobs-card-text {
         margin-top: 0px;
         width: 78.6vw;
         font-size: 16px;
         letter-spacing: -0.01em;
     }
-    .dont-hide{
+
+    .dont-hide {
         display: flex;
-        margin-left:65vw;
+        margin-left: 65vw;
         margin-top: 50px;
     }
-    .jobs-inactive{
+
+    .jobs-inactive {
         margin-top: 40px;
         flex-direction: column;
         width: unset;
     }
-    .jobs-inactive .jobs-card{
+
+    .jobs-inactive .jobs-card {
         width: unset;
     }
-    .spc{
+
+    .spc {
+        margin-top: 0px;
+        margin-bottom: 240px;
+    }
+
+    .jobs {
+        margin-bottom: 0px;
+    }
+
+    .jobs-inactive .info--title {
+        margin-bottom: 40px;
+    }
+
+    .application {
+        flex-direction: column;
+    }
+
+    .application--title {
+        font-weight: 800;
+        font-size: 54px;
+        line-height: 68px;
+        margin-bottom: 0px;
+    }
+
+    .application-content {
+        flex-direction: column;
+        flex-flow: column-reverse;
         margin-top: 0px;
     }
-    .jobs-inactive .info--title{
-        margin-bottom: 40px;
+
+    .application--subtitle {
+        font-size: 16px;
+    }
+    .application--text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .phone {
+        margin-top: 119px;
+        transform: scale(0.9);
+        margin-bottom: 48px;
+        margin-left: 13vw;
+    }
+
+    .section--title {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .section--content {
+        font-size: 16px;
+        line-height: 24px;
+        width: 82vw;
     }
 }
