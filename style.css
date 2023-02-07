@@ -308,6 +308,9 @@ body {
     position: absolute;
 }
 
+.hide-on-small{
+    display: flex;
+}
 .fesb-text-box {
     position: absolute;
     z-index: 1;
@@ -1664,5 +1667,11 @@ h2 {
     }
     .hidden-on-big{
         display: flex;
+    }
+    .sponsor-container{
+        margin-bottom: 164px;
+    }
+    .hide-on-small{
+        display: none;
     }
 }
