@@ -81,6 +81,7 @@ body {
   position: relative;
   height: fit-content;
 }
+
 .navigation-content-list--content:not(:last-child) {
   margin-right: 48px;
 }
@@ -92,12 +93,10 @@ body {
   font-size: 16px;
   line-height: 16px;
   text-decoration: none;
-  background: linear-gradient(
-    44.61deg,
-    #00b5c1 9.43%,
-    #4336b9 41.88%,
-    #fa4343 106.56%
-  );
+  background: linear-gradient(44.61deg,
+      #00b5c1 9.43%,
+      #4336b9 41.88%,
+      #fa4343 106.56%);
   background-clip: text;
   -webkit-background-clip: text;
   color: #f5f5f7ff;
@@ -116,15 +115,13 @@ body {
   display: flex;
   align-items: center;
   margin-top: -14px;
-  background: linear-gradient(
-    124.93deg,
-    #0d8fd3 5.44%,
-    #0b60bb 17.95%,
-    #0a3aa7 36.44%,
-    #6a387d 69.53%,
-    #c53754 105.59%,
-    #fa5240 117.57%
-  );
+  background: linear-gradient(124.93deg,
+      #0d8fd3 5.44%,
+      #0b60bb 17.95%,
+      #0a3aa7 36.44%,
+      #6a387d 69.53%,
+      #c53754 105.59%,
+      #fa5240 117.57%);
 }
 
 .button {
@@ -180,12 +177,10 @@ body {
   line-height: 120px;
   text-align: center;
   letter-spacing: -0.02em;
-  background: linear-gradient(
-    44.61deg,
-    #00b5c1 9.43%,
-    #4336b9 41.88%,
-    #fa4343 106.56%
-  );
+  background: linear-gradient(44.61deg,
+      #00b5c1 9.43%,
+      #4336b9 41.88%,
+      #fa4343 106.56%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   align-self: center;
@@ -232,7 +227,7 @@ body {
   -webkit-text-fill-color: none;*/
 }
 
-.header-hero--button > div {
+.header-hero--button>div {
   padding: 14px 32px 14px 32px;
 }
 
@@ -273,13 +268,11 @@ body {
 }
 
 .stat-box--large-text__visitors {
-  background: conic-gradient(
-    from 90deg at 73.72% 50%,
-    #c75593 -157.26deg,
-    #6a4293 89.27deg,
-    #c75593 202.74deg,
-    #6a4293 449.27deg
-  );
+  background: conic-gradient(from 90deg at 73.72% 50%,
+      #c75593 -157.26deg,
+      #6a4293 89.27deg,
+      #c75593 202.74deg,
+      #6a4293 449.27deg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -287,71 +280,65 @@ body {
 }
 
 .stat-box--large-text__partners {
-  background: conic-gradient(
-    from 114.22deg at 29.17% 50%,
-    #694696 -23.56deg,
-    #2361a6 107.58deg,
-    #c75593 232.77deg,
-    #694696 336.44deg,
-    #2361a6 467.58deg
-  );
+  background: conic-gradient(from 114.22deg at 29.17% 50%,
+      #694696 -23.56deg,
+      #2361a6 107.58deg,
+      #c75593 232.77deg,
+      #694696 336.44deg,
+      #2361a6 467.58deg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin-bottom: 4px;
 }
+
 .stat-box--large-text__classes {
-  background: conic-gradient(
-    from 114.22deg at 29.17% 50%,
-    #694696 -40.41deg,
-    #2361a6 38.26deg,
-    #694696 319.59deg,
-    #2361a6 398.26deg
-  );
+  background: conic-gradient(from 114.22deg at 29.17% 50%,
+      #694696 -40.41deg,
+      #2361a6 38.26deg,
+      #694696 319.59deg,
+      #2361a6 398.26deg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin-bottom: 4px;
 }
+
 .stat-box--large-text__workshops {
-  background: conic-gradient(
-    from 102.06deg at -7.1% 67.63%,
-    #c75593 -1.87deg,
-    #2361a6 281.68deg,
-    #694696 332.49deg,
-    #c75593 358.13deg,
-    #2361a6 641.68deg
-  );
+  background: conic-gradient(from 102.06deg at -7.1% 67.63%,
+      #c75593 -1.87deg,
+      #2361a6 281.68deg,
+      #694696 332.49deg,
+      #c75593 358.13deg,
+      #2361a6 641.68deg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin-bottom: 4px;
 }
+
 .stat-box--large-text__panels {
-  background: conic-gradient(
-    from 82.14deg at 53.24% 50%,
-    #694696 -47.23deg,
-    #804b73 97.91deg,
-    #ab415c 150.01deg,
-    #c35493 216.76deg,
-    #694696 312.77deg,
-    #804b73 457.91deg
-  );
+  background: conic-gradient(from 82.14deg at 53.24% 50%,
+      #694696 -47.23deg,
+      #804b73 97.91deg,
+      #ab415c 150.01deg,
+      #c35493 216.76deg,
+      #694696 312.77deg,
+      #804b73 457.91deg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin-bottom: 4px;
 }
+
 .stat-box--large-text__fly-talks {
-  background: conic-gradient(
-    from 77.41deg at 62.39% 60.9%,
-    #694696 -38.75deg,
-    #c88f6f 117.45deg,
-    #ab415c 221.55deg,
-    #804b73 291.42deg,
-    #694696 321.25deg,
-    #c88f6f 477.45deg
-  );
+  background: conic-gradient(from 77.41deg at 62.39% 60.9%,
+      #694696 -38.75deg,
+      #c88f6f 117.45deg,
+      #ab415c 221.55deg,
+      #804b73 291.42deg,
+      #694696 321.25deg,
+      #c88f6f 477.45deg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -540,7 +527,7 @@ h2 {
   align-items: flex-start;
 }
 
-.online > img {
+.online>img {
   position: absolute;
   top: 282px;
   margin-left: 43.3vw;
@@ -622,15 +609,13 @@ h2 {
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  background: linear-gradient(
-    124.93deg,
-    #0d8fd3 5.44%,
-    #0b60bb 17.95%,
-    #0a3aa7 36.44%,
-    #6a387d 69.53%,
-    #c53754 105.59%,
-    #fa5240 117.57%
-  );
+  background: linear-gradient(124.93deg,
+      #0d8fd3 5.44%,
+      #0b60bb 17.95%,
+      #0a3aa7 36.44%,
+      #6a387d 69.53%,
+      #c53754 105.59%,
+      #fa5240 117.57%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -703,6 +688,10 @@ h2 {
   margin-top: 32px;
   justify-content: space-around;
   margin-left: 32px;
+}
+
+.tips-title {
+  margin-right: 11px;
 }
 
 .card--time {
@@ -1036,12 +1025,10 @@ h2 {
   line-height: 68px;
   text-align: center;
   letter-spacing: -0.01em;
-  background: linear-gradient(
-    44.61deg,
-    #00b5c1 9.43%,
-    #4336b9 41.88%,
-    #fa4343 106.56%
-  );
+  background: linear-gradient(44.61deg,
+      #00b5c1 9.43%,
+      #4336b9 41.88%,
+      #fa4343 106.56%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1132,7 +1119,7 @@ h2 {
   margin-bottom: 264px;
 }
 
-.sponsor-container > span {
+.sponsor-container>span {
   align-self: center;
   display: flex;
   margin-bottom: 114px;
@@ -1673,6 +1660,7 @@ h2 {
   .nav {
     display: none;
   }
+
   .hamburger {
     display: flex;
     flex-direction: column;
@@ -1681,7 +1669,7 @@ h2 {
     height: 15px;
   }
 
-  .hamburger > .hamburger--bar {
+  .hamburger>.hamburger--bar {
     width: 100%;
     height: 2px;
     background-color: #f5f5f7;
@@ -1818,11 +1806,76 @@ h2 {
     height: 237px;
     justify-content: space-around;
   }
+
+  .fly-talks {
+    flex-direction: column;
+    width: fit-content;
+  }
+
+  .fly-talks--pictures {
+    align-self: center;
+    margin-left: 0px;
+    width: fit-content;
+  }
+
+  .online>img {
+    transform: scale(0.6);
+    margin-left: 50vw;
+  }
+
+  .jobs-active {
+    flex-direction: column;
+    align-self: flex-start;
+    margin-left: 20vw;
+  }
+
+  .jobs-wrapper {
+    overflow: visible;
+  }
+
+  .jobs-card-text {
+    min-width: 250px;
+  }
+
+  .tree {
+    max-height: 400px;
+  }
+
+  .jobs-inactive {
+    flex-direction: column;
+    align-self: center;
+    margin-left: 20vw;
+    margin-top: 50px;
+  }
+
+  .buttons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+    position: relative;
+  }
+
+  .spc {
+    display: none;
+  }
+
+  .jobs-inactive .jobs-card {
+    margin-bottom: 50px;
+  }
+
+  .application--text {
+    margin-right: 0px;
+  }
 }
 
 @media screen and (max-width: 950px) {
   .fesb-text-box {
     max-width: 327px;
+  }
+
+  .application-content {
+    flex-direction: column;
+    flex-flow: column-reverse;
   }
 
   .fesb-text-box--text__small {
@@ -1840,11 +1893,44 @@ h2 {
     font-size: 36px;
     line-height: 40px;
   }
+
+  .fly-talks {
+    flex-direction: column;
+    width: fit-content;
+    width: 100%;
+  }
+
+  .fly-talks--pictures {
+    align-self: flex-start;
+    margin-top: 50px;
+  }
+
+  .online>img {
+    transform: scale(0.3);
+    top: 250px;
+  }
+
+  .schedule-cards {
+    transform: scaleX(0.8);
+  }
+
+  .shell {
+    left: 45vw;
+  }
 }
 
 @media screen and (max-width: 700px) {
   .m-t-112px {
     margin-top: 0px;
+  }
+  .header-hero--title{
+    font-size: 86px;
+  }
+  
+  .jobs-active {
+    transform: scale(00.75);
+    margin-right: 50vw;
+    margin-left: 0px;
   }
 
   .inovators {
@@ -1869,6 +1955,22 @@ h2 {
 
   .m-t-96px {
     margin-top: 96px;
+  }
+
+  .fly-talks--pictures {
+    transform: scale(0.75);
+  }
+
+  .online {
+    transform: scale(0.7);
+  }
+
+  .schedule-cards {
+    transform: scalex(0.65);
+  }
+
+  .sponsor-container>span {
+    font-size: 46px;
   }
 }
 
@@ -1985,11 +2087,22 @@ h2 {
   }
 
   .fly-talks--pictures {
+    transform: scale(1);
+    align-self: unset;
+    margin-top: -102px;
+  }
+
+  .online {
+    transform: scale(1);
   }
 
   .online-content {
     margin-right: 0px;
     margin-left: 6.4vw;
+  }
+
+  .schedule-cards {
+    transform: scalex(1);
   }
 
   .online-title {
@@ -2014,6 +2127,10 @@ h2 {
     width: 87.2vw;
     margin-bottom: 0px;
     margin-top: 22px;
+  }
+
+  .schedule {
+    transform: scaleX(1);
   }
 
   .schedule-title {
@@ -2150,7 +2267,7 @@ h2 {
     margin-left: 24px;
   }
 
-  .lower-row > img {
+  .lower-row>img {
     min-width: 64px;
     max-height: 64px;
     margin-top: 2px;
@@ -2191,7 +2308,7 @@ h2 {
     flex-direction: column;
   }
 
-  .inactive--row > span {
+  .inactive--row>span {
     margin-bottom: 8px;
   }
 
@@ -2211,6 +2328,10 @@ h2 {
     flex-wrap: wrap;
     align-items: center;
     align-self: center;
+  }
+
+  .application--text {
+    margin-right: 248px;
   }
 
   .sponsor-row img {
@@ -2267,6 +2388,8 @@ h2 {
 
   .jobs-active {
     flex-direction: column;
+    transform: scale(1);
+    margin-right: 0px;
   }
 
   .jobs-card {
@@ -2275,8 +2398,7 @@ h2 {
     left: 10vw;
   }
 
-  .jobs-card > img {
-  }
+  .jobs-card>img {}
 
   .tree2 {
     display: flex;
@@ -2345,6 +2467,7 @@ h2 {
 
   .jobs-inactive .jobs-card {
     width: unset;
+    margin-bottom: unset;
   }
 
   .spc {
@@ -2358,6 +2481,10 @@ h2 {
 
   .jobs-inactive .info--title {
     margin-bottom: 40px;
+  }
+
+  .jobs-inactive {
+    margin-left: 0px;
   }
 
   .application {
@@ -2380,12 +2507,14 @@ h2 {
   .application--subtitle {
     font-size: 16px;
   }
+
   .application--text {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .phone {
     margin-top: 119px;
     transform: scale(0.9);
@@ -2414,6 +2543,7 @@ h2 {
     font-size: 14.4vw;
     line-height: 68px;
   }
+
   .pic1 {
     background: url(assets/slika1.png);
     background-position: center center;
@@ -2423,11 +2553,13 @@ h2 {
     height: 450px;
     z-index: 3;
   }
+
   .fly-talks--pictures {
     width: 100%;
     margin-left: 6.4vw;
     position: relative;
   }
+
   .pic2 {
     background: url(assets/slika3.png);
     background-position: center center;
@@ -2437,6 +2569,7 @@ h2 {
     width: 296px;
     height: 543px;
   }
+
   .pic3 {
     background: url(assets/slika2.png);
     background-position: center center;
@@ -2446,14 +2579,21 @@ h2 {
     height: 492px;
   }
 
+
   .tips {
     flex-direction: column;
     height: fit-content;
   }
+
   .tips-content {
     margin-left: 6.4vw;
     margin-top: 0px;
   }
+
+  .buttons {
+    align-self: unset;
+  }
+
   .tips-content--title {
     display: flex;
     width: 86vw;
@@ -2461,22 +2601,25 @@ h2 {
     flex-wrap: wrap;
     margin-bottom: 92px;
   }
+
   .tips-content--desc {
     line-height: 24px;
     margin-bottom: 30px;
     width: 293px;
   }
+
   .grey-bar {
     width: 327px;
   }
-  .shell{
+
+  .shell {
     position: relative;
     top: 152px;
-    width:848px;
+    width: 848px;
     rotate: 8deg;
     height: 721px;
     align-self: center;
-}
+  }
 }
 
 @media screen and (max-width: 375px) {
