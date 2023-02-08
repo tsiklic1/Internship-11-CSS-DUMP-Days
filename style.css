@@ -388,10 +388,12 @@ h2 {
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.51);
   max-width: 400px;
 }
-.spc{
+
+.spc {
   display: none;
 
 }
+
 .fly-talks--pictures {
   width: 1000px;
   height: 500px;
@@ -604,6 +606,11 @@ h2 {
   width: 920px;
   height: 1px;
   margin-bottom: 53px;
+}
+
+.jobs-field:hover {
+  background-color: rgba(245, 245, 247, 0.2);
+  cursor: pointer;
 }
 
 .schedule-gradient {
@@ -1207,6 +1214,8 @@ h2 {
   background: rgba(245, 245, 247, 0.05);
   transform: matrix(-1, 0, 0, 1, 0, 0);
   margin-right: 8px;
+  transition: background-color 0.3s ease 0s;
+
 }
 
 .triangle-left {
@@ -1861,7 +1870,7 @@ h2 {
   .spc {
     display: flex;
   }
-  
+
   .jobs-inactive .jobs-card {
     margin-bottom: 50px;
   }
@@ -2519,6 +2528,11 @@ h2 {
     align-items: center;
   }
 
+  .application--subtitle {
+    margin-right: 30.5%;
+    margin-bottom: 0px;
+  }
+
   .phone {
     margin-top: 119px;
     transform: scale(0.9);
@@ -2582,7 +2596,8 @@ h2 {
     width: 322px;
     height: 492px;
   }
-  .jobs-inactive .info--button{
+
+  .jobs-inactive .info--button {
     margin-bottom: 0px;
   }
 
