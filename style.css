@@ -382,13 +382,16 @@ h2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  margin-bottom: 56px;
   color: #f5f5f7;
   margin-top: 56px;
-  margin-bottom: 54px;
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.51);
   max-width: 400px;
 }
+.spc{
+  display: none;
 
+}
 .fly-talks--pictures {
   width: 1000px;
   height: 500px;
@@ -1856,9 +1859,9 @@ h2 {
   }
 
   .spc {
-    display: none;
+    display: flex;
   }
-
+  
   .jobs-inactive .jobs-card {
     margin-bottom: 50px;
   }
@@ -1923,10 +1926,11 @@ h2 {
   .m-t-112px {
     margin-top: 0px;
   }
-  .header-hero--title{
+
+  .header-hero--title {
     font-size: 86px;
   }
-  
+
   .jobs-active {
     transform: scale(00.75);
     margin-right: 50vw;
@@ -2578,7 +2582,9 @@ h2 {
     width: 322px;
     height: 492px;
   }
-
+  .jobs-inactive .info--button{
+    margin-bottom: 0px;
+  }
 
   .tips {
     flex-direction: column;
@@ -2588,6 +2594,10 @@ h2 {
   .tips-content {
     margin-left: 6.4vw;
     margin-top: 0px;
+  }
+
+  .fly-content--desc {
+    margin-bottom: 36px;
   }
 
   .buttons {
