@@ -93,10 +93,12 @@ body {
   font-size: 16px;
   line-height: 16px;
   text-decoration: none;
-  background: linear-gradient(44.61deg,
-      #00b5c1 9.43%,
-      #4336b9 41.88%,
-      #fa4343 106.56%);
+  background: linear-gradient(
+    44.61deg,
+    #00b5c1 9.43%,
+    #4336b9 41.88%,
+    #fa4343 106.56%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   color: #f5f5f7ff;
@@ -115,13 +117,15 @@ body {
   display: flex;
   align-items: center;
   margin-top: -14px;
-  background: linear-gradient(124.93deg,
-      #0d8fd3 5.44%,
-      #0b60bb 17.95%,
-      #0a3aa7 36.44%,
-      #6a387d 69.53%,
-      #c53754 105.59%,
-      #fa5240 117.57%);
+  background: linear-gradient(
+    124.93deg,
+    #0d8fd3 5.44%,
+    #0b60bb 17.95%,
+    #0a3aa7 36.44%,
+    #6a387d 69.53%,
+    #c53754 105.59%,
+    #fa5240 117.57%
+  );
 }
 
 .button {
@@ -177,10 +181,12 @@ body {
   line-height: 120px;
   text-align: center;
   letter-spacing: -0.02em;
-  background: linear-gradient(44.61deg,
-      #00b5c1 9.43%,
-      #4336b9 41.88%,
-      #fa4343 106.56%);
+  background: linear-gradient(
+    44.61deg,
+    #00b5c1 9.43%,
+    #4336b9 41.88%,
+    #fa4343 106.56%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   align-self: center;
@@ -227,7 +233,7 @@ body {
   -webkit-text-fill-color: none;*/
 }
 
-.header-hero--button>div {
+.header-hero--button > div {
   padding: 14px 32px 14px 32px;
 }
 
@@ -268,11 +274,13 @@ body {
 }
 
 .stat-box--large-text__visitors {
-  background: conic-gradient(from 90deg at 73.72% 50%,
-      #c75593 -157.26deg,
-      #6a4293 89.27deg,
-      #c75593 202.74deg,
-      #6a4293 449.27deg);
+  background: conic-gradient(
+    from 90deg at 73.72% 50%,
+    #c75593 -157.26deg,
+    #6a4293 89.27deg,
+    #c75593 202.74deg,
+    #6a4293 449.27deg
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -280,12 +288,14 @@ body {
 }
 
 .stat-box--large-text__partners {
-  background: conic-gradient(from 114.22deg at 29.17% 50%,
-      #694696 -23.56deg,
-      #2361a6 107.58deg,
-      #c75593 232.77deg,
-      #694696 336.44deg,
-      #2361a6 467.58deg);
+  background: conic-gradient(
+    from 114.22deg at 29.17% 50%,
+    #694696 -23.56deg,
+    #2361a6 107.58deg,
+    #c75593 232.77deg,
+    #694696 336.44deg,
+    #2361a6 467.58deg
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -293,11 +303,13 @@ body {
 }
 
 .stat-box--large-text__classes {
-  background: conic-gradient(from 114.22deg at 29.17% 50%,
-      #694696 -40.41deg,
-      #2361a6 38.26deg,
-      #694696 319.59deg,
-      #2361a6 398.26deg);
+  background: conic-gradient(
+    from 114.22deg at 29.17% 50%,
+    #694696 -40.41deg,
+    #2361a6 38.26deg,
+    #694696 319.59deg,
+    #2361a6 398.26deg
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -305,12 +317,14 @@ body {
 }
 
 .stat-box--large-text__workshops {
-  background: conic-gradient(from 102.06deg at -7.1% 67.63%,
-      #c75593 -1.87deg,
-      #2361a6 281.68deg,
-      #694696 332.49deg,
-      #c75593 358.13deg,
-      #2361a6 641.68deg);
+  background: conic-gradient(
+    from 102.06deg at -7.1% 67.63%,
+    #c75593 -1.87deg,
+    #2361a6 281.68deg,
+    #694696 332.49deg,
+    #c75593 358.13deg,
+    #2361a6 641.68deg
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -318,13 +332,15 @@ body {
 }
 
 .stat-box--large-text__panels {
-  background: conic-gradient(from 82.14deg at 53.24% 50%,
-      #694696 -47.23deg,
-      #804b73 97.91deg,
-      #ab415c 150.01deg,
-      #c35493 216.76deg,
-      #694696 312.77deg,
-      #804b73 457.91deg);
+  background: conic-gradient(
+    from 82.14deg at 53.24% 50%,
+    #694696 -47.23deg,
+    #804b73 97.91deg,
+    #ab415c 150.01deg,
+    #c35493 216.76deg,
+    #694696 312.77deg,
+    #804b73 457.91deg
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -332,13 +348,15 @@ body {
 }
 
 .stat-box--large-text__fly-talks {
-  background: conic-gradient(from 77.41deg at 62.39% 60.9%,
-      #694696 -38.75deg,
-      #c88f6f 117.45deg,
-      #ab415c 221.55deg,
-      #804b73 291.42deg,
-      #694696 321.25deg,
-      #c88f6f 477.45deg);
+  background: conic-gradient(
+    from 77.41deg at 62.39% 60.9%,
+    #694696 -38.75deg,
+    #c88f6f 117.45deg,
+    #ab415c 221.55deg,
+    #804b73 291.42deg,
+    #694696 321.25deg,
+    #c88f6f 477.45deg
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -391,7 +409,6 @@ h2 {
 
 .spc {
   display: none;
-
 }
 
 .fly-talks--pictures {
@@ -532,7 +549,7 @@ h2 {
   align-items: flex-start;
 }
 
-.online>img {
+.online > img {
   position: absolute;
   top: 282px;
   margin-left: 43.3vw;
@@ -619,13 +636,15 @@ h2 {
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  background: linear-gradient(124.93deg,
-      #0d8fd3 5.44%,
-      #0b60bb 17.95%,
-      #0a3aa7 36.44%,
-      #6a387d 69.53%,
-      #c53754 105.59%,
-      #fa5240 117.57%);
+  background: linear-gradient(
+    124.93deg,
+    #0d8fd3 5.44%,
+    #0b60bb 17.95%,
+    #0a3aa7 36.44%,
+    #6a387d 69.53%,
+    #c53754 105.59%,
+    #fa5240 117.57%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1035,10 +1054,12 @@ h2 {
   line-height: 68px;
   text-align: center;
   letter-spacing: -0.01em;
-  background: linear-gradient(44.61deg,
-      #00b5c1 9.43%,
-      #4336b9 41.88%,
-      #fa4343 106.56%);
+  background: linear-gradient(
+    44.61deg,
+    #00b5c1 9.43%,
+    #4336b9 41.88%,
+    #fa4343 106.56%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1129,7 +1150,7 @@ h2 {
   margin-bottom: 264px;
 }
 
-.sponsor-container>span {
+.sponsor-container > span {
   align-self: center;
   display: flex;
   margin-bottom: 114px;
@@ -1215,7 +1236,6 @@ h2 {
   transform: matrix(-1, 0, 0, 1, 0, 0);
   margin-right: 8px;
   transition: background-color 0.3s ease 0s;
-
 }
 
 .triangle-left {
@@ -1681,7 +1701,7 @@ h2 {
     height: 15px;
   }
 
-  .hamburger>.hamburger--bar {
+  .hamburger > .hamburger--bar {
     width: 100%;
     height: 2px;
     background-color: #f5f5f7;
@@ -1830,7 +1850,7 @@ h2 {
     width: fit-content;
   }
 
-  .online>img {
+  .online > img {
     transform: scale(0.6);
     margin-left: 50vw;
   }
@@ -1917,7 +1937,7 @@ h2 {
     margin-top: 50px;
   }
 
-  .online>img {
+  .online > img {
     transform: scale(0.3);
     top: 250px;
   }
@@ -1982,7 +2002,7 @@ h2 {
     transform: scalex(0.65);
   }
 
-  .sponsor-container>span {
+  .sponsor-container > span {
     font-size: 46px;
   }
 }
@@ -2280,7 +2300,7 @@ h2 {
     margin-left: 24px;
   }
 
-  .lower-row>img {
+  .lower-row > img {
     min-width: 64px;
     max-height: 64px;
     margin-top: 2px;
@@ -2321,7 +2341,7 @@ h2 {
     flex-direction: column;
   }
 
-  .inactive--row>span {
+  .inactive--row > span {
     margin-bottom: 8px;
   }
 
@@ -2411,7 +2431,8 @@ h2 {
     left: 10vw;
   }
 
-  .jobs-card>img {}
+  .jobs-card > img {
+  }
 
   .tree2 {
     display: flex;
@@ -2657,4 +2678,75 @@ h2 {
   .luka-img {
     width: 100vw;
   }
+}
+
+/* pokusaj da se napravi veliki grid */
+
+.gallery {
+  height: 2500px;
+  width: 3050px;
+  overflow: hidden;
+  transform: rotate(-15deg);
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  grid-template-rows: repeat(31, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div1 {
+  grid-area: 7 / 1 / 14 / 7;
+}
+.div2 {
+  grid-area: 14 / 1 / 25 / 8;
+}
+.div3 {
+  grid-area: 25 / 5 / 30 / 11;
+}
+.div4 {
+  grid-area: 25 / 11 / 32 / 17;
+}
+.div5 {
+  grid-area: 5 / 7 / 14 / 10;
+}
+.div6 {
+  grid-area: 20 / 8 / 25 / 16;
+}
+.div7 {
+  grid-area: 14 / 8 / 20 / 16;
+}
+.div8 {
+  grid-area: 9 / 10 / 14 / 16;
+}
+.div9 {
+  grid-area: 9 / 16 / 12 / 20;
+}
+.div10 {
+  grid-area: 12 / 16 / 17 / 23;
+}
+.div11 {
+  grid-area: 25 / 17 / 31 / 20;
+}
+.div12 {
+  grid-area: 17 / 16 / 25 / 20;
+}
+.div13 {
+  grid-area: 12 / 23 / 17 / 31;
+}
+.div14 {
+  grid-area: 7 / 20 / 12 / 28;
+}
+.div15 {
+  grid-area: 1 / 20 / 7 / 26;
+}
+.div16 {
+  grid-area: 17 / 20 / 28 / 26;
+}
+
+.grid-img {
+  width: 100%;
 }
